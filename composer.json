@@ -1,0 +1,21 @@
+{
+    "name": "xoborg/cabralog-php-package",
+    "description": "Official php package for cabralog.es.",
+    "keywords": ["cabralog"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Xoborg",
+            "email": "developers@xoborg.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.6"
+    },
+	"autoload": {
+        "psr-4": {
+            "Xoborg\\Cabralog\\": "src/"
+        }
+    }
+}
